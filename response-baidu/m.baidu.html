@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>手机百度</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/move/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/m.baidu.css">
+</head>
+
+<body>
+    <!-- 头部区 -->
+    <div class="head">
+        <!-- 头部图标 -->
+        <div class="head-icon visible-xs">
+            <!-- 天气 -->
+            <div class="weather">
+                <i class="iconfont b7">&#xe602;</i>
+                <span>32°</span>
+                <div>
+                    <p>镇江</p>
+                    <p>空气54</p>
+                </div>
+                <i class="iconfont b6">&#xe619;</i>
+            </div>
+            <!-- 用户 -->
+            <div class="user">
+                <a href="http://wappass.baidu.com/passport/?login&tpl=wimn&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1&tn=&regtype=1&u=https://m.baidu.com"><i class="iconfont icon-col-1">&#xe604;</i></a>
+            </div>
+            <!-- 换肤 -->
+            <div class="skin">
+                <a href=""><i class="iconfont icon-col-1">&#xe607;</i></a>
+            </div>
+        </div>
+        <!-- pc端头部导航 -->
+        <ul class="visible-md pc-nav">
+            <li><a href="https://zj.nuomi.com/" class="ul_a"><b>糯米</b></a></li>
+            <li><a href="http://news.baidu.com/" class="ul_a"><b>新闻</b></a></li>
+            <li><a href="https://www.hao123.com/" class="ul_a"><b>hao123</b></a></li>
+            <li><a href="http://map.baidu.com/" class="ul_a"><b>地图</b></a></li>
+            <li><a href="http://v.baidu.com/" class="ul_a"><b>视频</b></a></li>
+            <li><a href="http://tieba.baidu.com/" class="ul_a"><b>贴吧</b></a></li>
+            <li><a href="https://www.baidu.com/" class="ul_b">登录</a></li>
+            <li><a href="" onclick="return false;" class="ul_c">设置</a>
+                <!-- 下拉框 -->
+                <div class="drop">
+                    <span></span>
+                    <a href="">搜索设置</a>
+                    <a href="">高级搜索</a>
+                    <a href="">关闭预测</a>
+                    <a href="">搜索历史</a>
+                </div>
+            </li>
+            <li><a href="" onclick="return false;" class="ul_d">更多产品</a>
+                <!-- 侧边栏 -->
+                <div class="sidebar">
+                    <div class="sidebar_one">更多产品</div>
+                    <div class="sidebar_two">
+                        <a href="http://music.baidu.com/"><i class="pc-img1"></i>音乐</a>
+                        <a href="http://image.baidu.com/"><i class="pc-img2"></i>图片</a>
+                        <a href="http://zhidao.baidu.com/"><i class="pc-img3"></i>知道</a>
+                        <a href="http://wenku.baidu.com/"><i class="pc-img4"></i>文库</a>
+                        <a href="http://top.baidu.com/"><i class="pc-img5"></i>风云榜</a>
+                        <a href="http://e.baidu.com/?refer=888"><i class="pc-img6"></i>百度推广</a>
+                        <div class="qbcp"><a href="https://www.baidu.com/more/">全部产品>></a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <!-- 百度logo -->
+        <div class="logo">
+            <img src="image/move/logo.png" width="175px" height="55px" class="visible-xs">
+            <!-- pc百度logo -->
+            <img src="image/pclogo.png" width="270px" height="129px" class="visible-md">
+        </div>
+        <!-- 搜索区 -->
+        <div class="search visible-xs">
+            <!-- 图标 -->
+            <ul class="search-icon">
+                <li class="display">
+                    <i class="iconfont">&#xe620;</i>
+                    <div class="hide img">
+                        <span></span>
+                        <div class="img-col"><i class="img1"></i></div>
+                        <div class="img-col"><i class="img2"></i></div>
+                    </div>
+                </li>
+            </ul>
+            <!-- 搜索表单 -->
+            <form action="https://m.baidu.com/s" method="get" target="_blank" class="m-form">
+                <div class="con-wrap">
+                    <!--搜索框-->
+                    <input type="text" autocomplete="off" autocorrect="off" id="index-kw" name="word" class="se-input adjust-input" autofocus>
+                    <!--搜索按钮-->
+                    <input type="submit" class="botton" value="百度一下">
+                </div>
+            </form>
+        </div>
+        <!-- pc搜索区 -->
+        <div class="pc-range visible-md">
+            <!--照相机图片-->
+            <div class="pc-image2"></div>
+            <!-- 表单 -->
+            <form action="https://www.baidu.com/s" method="get" target="_blank" class="pc-form">
+                <!--搜索框-->
+                <input type="text" name="wd" id="wd" class="ss" autofocus>
+                <!--搜索按钮-->
+                <input type="submit" class="pc-botton" value="百度一下">
+            </form>
+        </div>
+        <!-- 导航链接 -->
+        <div class="nav visible-xs">
+            <a href="http://m.news.baidu.com/news?fr=mohome&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1"><i class="iconfont">&#xe603;</i>新闻</a>
+            <a href="http://dushu.baidu.com/"><i class="iconfont">&#xe613;</i>小说</a>
+            <a href="http://video.m.baidu.com/?from=wise_nav"><i class="iconfont">&#xe600;</i>视频</a>
+            <a href="http://life.m.baidu.com/?sfrom=wise_nav"><i class="iconfont">&#xe615;</i>糯米</a>
+            <a href="http://map.baidu.com/mobile/webapp/index/index/?itj=45&wtj=wi&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1&showcvr=1"><i class="iconfont">&#xe617;</i>地图</a>
+            <div class="display">
+                <a>
+                    <i class="iconfont">&#xe608;</i>更多</a>
+                <div class="hide nav-hide">
+                    <a href="http://tieba.baidu.com/?mo_device=1&itj=43&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1"><i class="iconfont">&#xe618;</i>贴吧</a>
+                    <a href="http://image.baidu.com/search/wiseindex?tn=wiseindex&wiseps=1&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1"><i class="iconfont">&#xe618;</i>图片</a>
+                    <a href="http://m.hao123.com/?tn=wisebaidu&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1"><i class="iconfont">&#xe618;</i>网址</a>
+                    <a href="http://e.baidu.com/?refer=205&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1"><i class="iconfont">&#xe618;</i>推广</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 中间区 -->
+    <div class="content visible-xs">
+        <!-- 我的导航 -->
+        <div class="navigation plus">
+            <div class="title">
+                <div class="normal-title">
+                    <h2>我的导航</h2>
+                    <a class="display">
+                        <i class="iconfont b6">&#xe61c;</i>
+                        <ul class="hide">
+                            <li>编辑</li>
+                            <li>置顶</li>
+                            <li>关闭</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <div class="nav-conten">
+                <a href="http://tj.m.baidu.com/?tj_frm=wise_nav">资讯</a>
+                <a href="http://m.hao123.com/?itj=49">hao123</a>
+                <a href="http://image.baidu.com/search/wiseindex?tn=wiseindex&wiseps=1">图片</a>
+                <a href="http://m.iqiyi.com/">爱奇艺</a>
+                <a href="http://image.baidu.com/wisebrowse/index?tag1=%E7%BE%8E%E5%A5%B3&tag2=%E5%85%A8%E9%83%A8&tag3=&pn=0&rn=10&from=index&fmpage=index&pos=magic#/home">美女</a>
+                <a href="http://music.baidu.com/home?fr=mo">音乐</a>
+                <a href="http://www.qiushibaike.com/">笑话</a>
+                <a href="https://m.baidu.com/#|iview=nav"><i class="iconfont b6">&#xe605;</i></a>
+            </div>
+        </div>
+        <!-- 实时热点 -->
+        <div class="hotspot plus">
+            <div class="title">
+                <div class="normal-title">
+                    <h2>实时热点</h2>
+                    <i class="iconfont b6 turn">&#xe606;</i>
+                    <span>换一批</span>
+                    <a>
+                        <i class="iconfont b6">&#xe61c;</i>
+                        <ul class="hide">
+                            <li>置顶</li>
+                            <li>关闭</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <ul class="hotspot-link">
+                <li><a href="#">小伙玩网游脚腐烂</a><i class="iconfont sup">&#xe61d;</i></li>
+                <li><a href="#">女孩吃头发解忧</a><i class="iconfont sup">&#xe61d;</i></li>
+                <li><a href="">副镇长开网约车</a><i class="iconfont sup">&#xe61d;</i></li>
+                <li>习总凭吊使馆烈士</li>
+                <li>魔兽票房超12亿</li>
+                <li>甘肃女孩爬山遇害</li>
+            </ul>
+            <div class="bot-nav">
+                <a href="http://top.baidu.com/m?csrc=fyb_wiserdcard_auto">
+                    百度风云榜 >
+                </a>
+            </div>
+        </div>
+        <!-- 百度推荐 -->
+        <div class="recommend plus">
+            <div class="title">
+                <div class="normal-title">
+                    <h2>百度推荐</h2>
+                    <i class="iconfont b6 turn">&#xe606;</i>
+                    <span>换一批</span>
+                    <a>
+                        <i class="iconfont b6">&#xe61c;</i>
+                        <ul class="hide">
+                            <li>置顶</li>
+                            <li>关闭</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <ul class="rec-conten">
+                <li>
+                    <a href="#">
+                        <img src="image/move/tj.jpg" width="83px" height="50px">
+                        <span class="out1">俄媒称俄罗斯应该对北约增兵“以牙还牙”</span>
+                        <span class="time time1">11:35</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="outer">俄媒称俄罗斯应该对北约增兵“以牙还牙”</span>
+                        <span class="time">11:35</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="outer">俄媒称俄罗斯应该对北约增兵“以牙还牙”</span>
+                        <span class="time">11:35</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="outer">俄媒称俄罗斯应该对北约增兵“以牙还牙”</span>
+                        <span class="time">11:35</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="bot-nav">
+                <a href="http://top.baidu.com/m?csrc=fyb_wiserdcard_auto">
+                    查看更多推荐 >
+                </a>
+            </div>
+        </div>
+        <!-- 生活服务 -->
+        <div class="life plus">
+            <div class="title">
+                <div class="normal-title">
+                    <h2>我的导航</h2>
+                    <a>
+                        <i class="iconfont b6">&#xe61c;</i>
+                        <ul class="hide">
+                            <li>置顶</li>
+                            <li>关闭</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <div class="title location">
+                <p>点击定位，查看附件位置信息</p>
+                <i class="iconfont">&#xe60c;</i>
+                <botton>定位</botton>
+            </div>
+            <ul class="life-conten">
+                <li>
+                    <a href="https://mdianying.baidu.com/?sfrom=wise_life_service_card_wap">
+                        <i class="iconfont red-icon">&#xe60f;</i>
+                        <p>电影</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://m.nuomi.com/?&cid=quanyiwap">
+                        <i class="iconfont red-icon">&#xe60a;</i>
+                        <p>团购</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://waimai.baidu.com/mobile/waimai?qt=confirmcity&utm_source=baidu&utm_medium=wise&utm_content=default&utm_term=default&utm_campaign=default&cid=993678&w=%220_0_%E5%A4%96%E5%8D%96%22">
+                        <i class="iconfont red-icon">&#xe60a;</i>
+                        <p>外卖</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://rentcar.baidu.com/zuche/index/?third_party=wiseshfw_uber&src_from=wiseshfw_uber&w=%220_0_%E6%89%93%E8%BD%A6%22">
+                        <i class="iconfont red-icon">&#xe611;</i>
+                        <p>打车</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://m.ctrip.com/webapp/Hotel/?allianceid=297710&sid=762819&sourceid=2232&popup=close&autoawaken=close&ouid=bdviph5_H4279rbn9e6u6_1bma438_lr_0">
+                        <i class="iconfont red-icon">&#xe609;</i>
+                        <p>酒店</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://m.nuomi.com/326/0-0/0-0-0-0-0?&cid=quanyiwap">
+                        <i class="iconfont red-icon">&#xe60a;</i>
+                        <p>美食</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://m.nuomi.com/341/0-0/0-0-0-0-0?&cid=quanyiwap">
+                        <i class="iconfont red-icon">&#xe612;</i>
+                        <p>KTV</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://chong.blueplus.cc/webpage/blue/mobilebaidu/charge.html?partid=10000017&w=%220_0_%E5%85%85%E5%80%BC%22">
+                        <i class="iconfont red-icon">&#xe60b;</i>
+                        <p>充值</p>
+                    </a>
+                </li>
+                <!-- 触发后显示 -->
+                <div class="hide">
+                    <li>
+                        <a href="https://mdianying.baidu.com/?sfrom=wise_life_service_card_wap">
+                            <i class="iconfont red-icon">&#xe60f;</i>
+                            <p>电影</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://m.nuomi.com/?&cid=quanyiwap">
+                            <i class="iconfont red-icon">&#xe60a;</i>
+                            <p>团购</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://waimai.baidu.com/mobile/waimai?qt=confirmcity&utm_source=baidu&utm_medium=wise&utm_content=default&utm_term=default&utm_campaign=default&cid=993678&w=%220_0_%E5%A4%96%E5%8D%96%22">
+                            <i class="iconfont red-icon">&#xe60a;</i>
+                            <p>外卖</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://rentcar.baidu.com/zuche/index/?third_party=wiseshfw_uber&src_from=wiseshfw_uber&w=%220_0_%E6%89%93%E8%BD%A6%22">
+                            <i class="iconfont red-icon">&#xe611;</i>
+                            <p>打车</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://m.ctrip.com/webapp/Hotel/?allianceid=297710&sid=762819&sourceid=2232&popup=close&autoawaken=close&ouid=bdviph5_H4279rbn9e6u6_1bma438_lr_0">
+                            <i class="iconfont red-icon">&#xe609;</i>
+                            <p>酒店</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.nuomi.com/326/0-0/0-0-0-0-0?&cid=quanyiwap">
+                            <i class="iconfont red-icon">&#xe60a;</i>
+                            <p>美食</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://m.nuomi.com/341/0-0/0-0-0-0-0?&cid=quanyiwap">
+                            <i class="iconfont red-icon">&#xe612;</i>
+                            <p>KTV</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://chong.blueplus.cc/webpage/blue/mobilebaidu/charge.html?partid=10000017&w=%220_0_%E5%85%85%E5%80%BC%22">
+                            <i class="iconfont red-icon">&#xe60b;</i>
+                            <p>充值</p>
+                        </a>
+                    </li>
+                </div>
+            </ul>
+            <div class="exh">
+                <span>展示全部</span>
+                <i class="iconfont">&#xe619;</i>
+            </div>
+        </div>
+        <!-- 购物 -->
+        <div class="shopping plus">
+            <div class="title">
+                <div class="normal-title">
+                    <h2>购物</h2>
+                    <i class="iconfont b6 turn">&#xe606;</i>
+                    <span>换一批</span>
+                    <a>
+                        <i class="iconfont b6">&#xe61c;</i>
+                        <ul class="hide">
+                            <li>置顶</li>
+                            <li>关闭</li>
+                        </ul>
+                    </a>
+                </div>
+            </div>
+            <!-- 购物内容区 -->
+            <a href="http://vip.baidu.com/wise/product/30609?vip_frm=wise_gouwu_xq" class="shopping-image">
+                <img src="image/move/gw.jpg" width="90px" height="90px;">
+                <div class="shop-info">
+                    <span class="shop-tit">3D手机高清屏幕放大镜</span>
+                    <ul class="shop-price">
+                        <li><span>¥</span>23</li>
+                        <li>¥88</li>
+                        <li>|</li>
+                        <li>返9.2元</li>
+                    </ul>
+                    <span class="look">去看看</span>
+                    <span class="shop-from">百度商城</span>
+                </div>
+            </a>
+            <div class="nav-conten">
+                <a href="#">京东商城</a>
+                <a href="#">百度糯米</a>
+                <a href="#">1号店</a>
+                <a href="#">唯品会</a>
+                <a href="#">当当网</a>
+                <a href="#">蘑菇街</a>
+                <a href="#">淘宝特卖</a>
+                <a href="#">国美在线</a>
+            </div>
+            <div class="bot-nav">
+                <a href="http://vip.baidu.com/wise?vip_frm=wise_gouwu">
+                    查看更多 >
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 管理我的卡片 -->
+    <div class="card visible-xs">
+        管理我的卡片
+    </div>
+    <!-- 底部区 -->
+    <div class="foot">
+        <!-- 底部列表 -->
+        <ul class="list visible-xs">
+            <li>
+                <a href="https://itunes.apple.com/cn/app/bai-du-liu-lan-qi-2yi-yong/id789634484?l=en&mt=8"><i class="iconfont hot">&#xe614;</i>百度浏览器，上网提速200%</a>
+            </li>
+            <li>
+                <a href="https://itunes.apple.com/cn/app/bai-du-liu-lan-qi-2yi-yong/id789634484?l=en&mt=8"><img src="image/move/icon.png" width="15px" height="15px">手机百度，最省流量的极速搜索APP</a>
+            </li>
+            <li>
+                <a href="https://itunes.apple.com/cn/app/bai-du-liu-lan-qi-2yi-yong/id789634484?l=en&mt=8"><i class="iconfont hot">&#xe614;</i>百度推广，让有需求的客户找你</a>
+            </li>
+        </ul>
+        <!-- 底部版权 -->
+        <div class="copyright visible-xs">
+            <div class="visible-xs">
+                <a href="http://ufosdk.baidu.com/?m=Client&a=commonsubmit&appid=517&activityId=1&needEmail=false&bw=49B014D74726735D1DC3AB5CD3C836A6&kw=&tn=iphone&pageid=6"><img src="image/move/img1.png" width="20px" height="20px">用户反馈</a>
+            </div>
+            <a href="http://m.baidu.com/pub/help.php?pn=25&ssid=0&from=&uid=&pu=sz%401320_2001%2Cta%40iphone_1_9.1_3_601&bd_page_type=1">使用百度前必读&nbsp;Baidu&nbsp;京ICP证030173号</a>
+            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11000002000001" target="_blank"><img src="image/move/img2.png" width="20px" height="20px">京公网安备11000002000001号</a>
+        </div>
+        <!-- pc底部内容 -->
+        <div class="pc-foot_range visible-md">
+            <div class="pc-foot_content">
+                <!-- 内容1 -->
+                <div class="pc-foot_content_one">
+                    <!-- 内容1二维码 -->
+                    <div class="pc-code_one"></div>
+                    <!-- 内容1文字 -->
+                    <div class="pc-words">
+                        <p><b>手机百度</b></p>
+                        <p>快人一步</p>
+                    </div>
+                </div>
+                <!-- 内容2 -->
+                <div class="pc-foot_content_two">
+                    <!-- 内容2二维码 -->
+                    <div class="pc-code_two"></div>
+                    <!-- 内容2文字 -->
+                    <div class="pc-words">
+                        <p><b>百度糯米</b></p>
+                        <p>一元大餐</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 内容3 -->
+            <div class="pc-foot_content_three">
+                <!-- 内容3第1行 -->
+                <p class="pc-foot_a">
+                    <a href="https://www.baidu.com/cache/sethelp/help.html" target="_blank" style="margin-left:0px;">把百度设为主页</a>
+                    <a href="http://home.baidu.com/" target="_blank">关于百度</a>
+                    <a href="http://ir.baidu.com/phoenix.zhtml?c=188488&p=irol-homeprofile" target="_blank">About Baidu</a>
+                </p>
+                <!-- 内容3第2行 -->
+                <p class="pc-foot_b">©2016 Baidu
+                    <a href="http://www.baidu.com/duty/">使用百度前必读</a>
+                    <a href="http://jianyi.baidu.com/">意见反馈</a>京ICP证030173号 <i class="pc-image3"></i>
+                </p>
+                <!-- 内容3第3行 -->
+                <p class="pc-foot_c">
+                    <i class="pc-image4"></i>
+                    <span>京公网安备11000002000001号</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
