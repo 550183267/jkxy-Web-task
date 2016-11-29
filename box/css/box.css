@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+h3{
+    text-align: center;
+
+}
+
+.m10{
+    margin: 10px;
+}
+
+/* 正常盒子 */
+
+/* 正常盒子内容区 */
+
+.content {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+/* 正常盒子盒子区 */
+
+.padding {
+    margin: 50px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: #EBCE4A;
+    border: 5px solid #B792C5;
+}
+
+
+/* 怪异盒子 */
+
+
+/* 怪异盒子内容区 */
+
+.content1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+
+/* 怪异盒子盒子区 */
+
+.padding1 {
+    margin: 50px;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
+    background-color: #EBCE4A;
+    border: 5px solid #B792C5;
+    box-sizing: border-box;
+}
+
+
+/* 垂直cloumn分栏 */
+
+.fiex {
+    -webkit-column-count: 4;
+    -webkit-column-rule-style: dotted;
+}
+
+
+/* 图片1 */
+
+.fiex img {
+    float: left;
+}
+
+
+/* 图片2居中 */
+
+.t {
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    height: 200px;
+    width: 200px;
+    background-color: rgba(184, 250, 108, 0.67)
+}
+
+
+/* 图片2大小 */
+
+.t img {
+    width: 100px;
+    height: 100px;
+}
+
+
+/* 伸缩盒旧 */
+
+.con {
+    display: -webkit-box;
+    background-color: rgba(158, 158, 158, 0.42);
+    width: 400px;
+    height: 400px;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 第一个 */
+
+.first {
+    height: 50px;
+    background-color: #E3F16D;
+    -webkit-box-flex: 1;
+}
+
+
+/* 第二个 */
+
+.two {
+    height: 50px;
+    background-color: #A3FFD4;
+    -webkit-box-flex: 1;
+}
+
+
+/* 第三个 */
+
+.three {
+    height: 100px;
+    background-color: #D0D6FF;
+    -webkit-box-flex: 1;
+}
+
+
+/* 伸缩盒新 */
+
+.con {
+    display: -webkit-flex;
+    background-color: rgba(158, 158, 158, 0.42);
+    width: 400px;
+    height: 400px;
+    flex-direction: column;
+}
+
+
+/* 第一个 */
+
+.first {
+    height: 50px;
+    background-color: #E3F16D;
+    -webkit-flex: 1;
+    order: 2;
+}
+
+
+/* 第二个 */
+
+.two {
+    height: 50px;
+    background-color: #A3FFD4;
+    -webkit-flex: 1;
+    order: 1;
+}
+
+
+/* 第三个 */
+
+.three {
+    height: 100px;
+    background-color: #D0D6FF;
+    -webkit-flex: 1;
+    order: 3;
+}
