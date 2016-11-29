@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+body {
+    background: #f3f2f3;
+    width: 100%;
+    min-width: 810px;
+    height: 100%;
+    font-size: 12px;
+}
+
+body,
+div,
+a,
+ul {
+    box-sizing: border-box;
+}
+
+ul,span,div{
+    list-style-type: none;
+}
+
+.head {
+    min-height: 90px;
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    padding-bottom: 8px;
+    box-shadow: 0 0 3px rgba(150, 150, 150, .2)
+}
+
+.head ul {
+    margin: 12px 0 0 194px;
+    height: 30px;
+    position: relative;
+    font-size: 14px;
+}
+
+.head ul li {
+    display: inline-block;
+
+}
+
+.search {
+    display: block;
+    width: 100%;
+    position: relative;
+    float: left;
+}
+
+.search a {
+    margin: -18px 16px 0 40px;
+    width: 137px;
+    height: 46px;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+form {
+    display: inline-block;
+    width: 585px;
+    position: relative;
+    float: left;
+}
+
+.sear-frame {
+    display: inline-block;
+    width: 453px;
+    height: 32px;
+    border: 1px solid #b8b8b8;
+    border-right: 0;
+    float: left;
+}
+
+.sear-frame input {
+    width: 416px;
+    height: 22px;
+    margin: 6px 0 0 7px;
+    background: #fff;
+    border: 0;
+}
+
+.sear-button {
+    width: 98px;
+    height: 34px;
+    border-left: 0px;
+    padding-top: 1px;
+    line-height: 34px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+.relevant {
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    padding: 5px 5px 5px 35px;
+    display: block;
+    overflow: hidden;
+}
+
+.relevant span {
+    display: inline-block;
+    padding: 0 10px 5px 20px;
+    height: 26px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #666;
+    background: url(../img/icon/lazy_img1.png) no-repeat -191px -334px;
+}
+
+.relevant a {
+    margin-right: 25px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.img-con {
+    padding: 0 45px 0 40px;
+    background: #f3f2f3;
+    min-height: 400px;
+}
+
+.con p {
+    font-weight: 700;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    padding: 21px 0 1px 4px;
+    color: #4f4f4f;
+}
+
+.con-one p {
+    padding: 0 0 1px 4px;
+    height: 10px;
+}
+
+.con ul {
+    position: relative;
+}
+
+
+.box{
+    display: inline-block;
+     float: left;
+}
+
+.con ul li img {
+    display: block;
+     width: 238px;
+     margin: 5px;
+}
+
+
+.top {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    width: 37px;
+    height: 38px;
+    right: 7px;
+    bottom: 122px;
+    background: url(../img/icon/result-huge-bg.png) no-repeat 1px 0;
+}
+
+.top span,.feed span{
+    display: none;
+    text-decoration: none;
+    color: #8d8f92;
+    text-align: center;
+    position: relative;
+    width: 35px;
+    top: 37px;
+    left: 1px;
+    line-height: 15px;
+}
+
+.feed {
+    cursor: pointer;
+    position: fixed;
+    text-decoration: none;
+    right: 7px;
+    bottom: 46px;
+    width: 37px;
+    height: 38px;
+    background: url(../img/icon/result-huge-bg.png) no-repeat 1px -37px;
+}
+
+.top:hover span{
+    display: list-item;
+}
+
+.feed:hover span{
+    display: list-item;
+}
