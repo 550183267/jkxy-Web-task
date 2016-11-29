@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*图像字体*/
+
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    position: absolute;
+    left: 15px;
+}
+
+.img1 {
+    top: 10px;
+}
+
+.img2 {
+    top: 55px;
+}
+
+body {
+    font-size: 12px;
+    background-color: #006ba3;
+}
+
+
+/*范围*/
+
+.range {
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin: 250px auto;
+    border: 1px solid #1e8dc2;
+    background-color: #208cc4;
+    border-radius: 20px;
+    box-shadow: 25px 35px 32px rgba(0, 84, 127, .6);
+    background: -webkit-linear-gradient(#35a7e3, #006194);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#35a7e3, #006194);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#35a7e3, #006194);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#35a7e3, #006194);
+    /* 标准的语法 */
+}
+
+
+/*头部*/
+
+.head {
+    background: #5ab7e7;
+    width: 220px;
+    position: absolute;
+    height: 50px;
+    top: -18px;
+    left: 45px;
+    border-bottom-left-radius: 53px 65px;
+    box-shadow: -1px 2px 15px rgba(39, 38, 62, .6);
+    border-top-right-radius: 53px 65px;
+    color: #ededed;
+    font-size: 26px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 52px;
+    background: -webkit-linear-gradient(#7bdaff, #1083c0);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#7bdaff, #1083c0);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#7bdaff, #1083c0);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#7bdaff, #1083c0);
+    /* 标准的语法 */
+}
+
+
+/*中间左边/中间右边*/
+
+.middle_left,
+.middle_right {
+    float: left;
+    height: 170px;
+    margin-top: 60px;
+}
+
+
+/*中间左边*/
+
+.middle_left {
+    margin-left: 20px;
+    width: 150px
+}
+
+.middle_left img {
+    margin: 12px 25px;
+}
+
+
+/*中间右边登陆区*/
+
+.middle_right {
+    width: 300px;
+}
+
+form {
+    position: relative;
+}
+
+
+/*输入用户名/输入密码表单*/
+
+.user,
+.password {
+    display: block;
+    width: 210px;
+    height: 20px;
+    padding: 6px 28px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 14px;
+    color: #fff;
+}
+
+
+/*登陆按钮*/
+
+.submit {
+    color: #fff;
+    background-color: #1f8ec0;
+    border-color: #3e86ce;
+    margin: 5px;
+    padding: 3px 25px;
+    font-size: 19px;
+    line-height: 1.3333333;
+    border-radius: 7px;
+    font-weight: 500;
+    cursor: pointer;
+    background: -webkit-linear-gradient(#35a7e3, #006194);
+    /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#35a7e3, #006194);
+    /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#35a7e3, #006194);
+    /* Firefox 3.6 - 15 */
+    background: linear-gradient(#35a7e3, #006194);
+    /* 标准的语法 */
+    box-shadow: 2px 2px 10px rgba(183, 193, 198, 0.6);
+}
