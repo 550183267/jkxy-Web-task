@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*所有div*/
+
+div {
+    position: absolute;
+    float: left;
+    height: 100px;
+    width: 100px;
+    box-shadow: 1px 2px 8px 1px rgba(83, 83, 184, 1);
+}
+
+
+/*外框*/
+
+.frame {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    top: 50%;
+    left: 50%;
+    margin-top: -150px;
+    margin-left: -150px;
+}
+
+
+/*上*/
+
+.up {
+    margin-left: 100px;
+    background-color: #37E640;
+}
+
+
+/*左*/
+
+.left {
+    margin-top: 100px;
+    background-color: #DFE77C;
+}
+
+
+/*右*/
+
+.right {
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color: #FFA74F;
+}
+
+
+/*中*/
+
+.middle {
+    margin-left: 100px;
+    margin-top: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+/*下*/
+
+.lower {
+    margin-left: 100px;
+    margin-top: 200px;
+    background-color: #9B9BFF;
+}
