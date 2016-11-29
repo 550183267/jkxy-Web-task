@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 175px;
+}
+
+
+/* 整体 */
+
+#whole {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -60px auto auto -60px;
+}
+
+
+/* 图像区域 */
+
+.box {
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation: from 3s infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-transform-origin: 75px 75px 0px;
+    transform-style: preserve-3d;
+    animation: from 3s infinite;
+    animation-timing-function: ease-in-out;
+    transform-origin: 75px 75px 0px;
+}
+
+
+/* 定义动画状态 */
+
+@keyframes from {
+    15% {
+        transform: rotateY(-135deg);
+    }
+    30% {
+        transform: rotateY(-90deg)rotateZ(135deg);
+    }
+    45% {
+        transform: rotateY(225deg)rotateZ(135deg);
+    }
+    60% {
+        transform: rotateY(135deg)rotateX(135deg);
+    }
+    75% {
+        transform: rotateX(135deg)rotateY(225deg);
+    }
+    90% {
+        transform: rotateX(-135deg);
+    }
+}
+
+
+/* 定义动画状态（兼容） */
+
+@-webkit-keyframes from {
+    15% {
+        -webkit-transform: rotateY(-135deg);
+    }
+    30% {
+        -webkit-transform: rotateY(-90deg)rotateZ(135deg);
+    }
+    45% {
+        -webkit-transform: rotateY(225deg)rotateZ(135deg);
+    }
+    60% {
+        -webkit-transform: rotateY(135deg)rotateX(135deg);
+    }
+    75% {
+        -webkit-transform: rotateX(135deg)rotateY(225deg);
+    }
+    90% {
+        -webkit-transform: rotateX(-135deg);
+    }
+}
+
+
+/* 每一面尺寸 */
+
+.box div {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+}
+
+
+/* 每面小方形尺寸 */
+
+.box div div {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 10px;
+    float: left;
+}
+
+
+/* 第一面 */
+
+#one {
+    -webkit-transform: translateZ(60px);
+    transform: translateZ(60px);
+}
+
+
+/* 第二面 */
+
+#two {
+    -webkit-transform: rotateX(-90deg) translateZ(60px);
+    transform: rotateX(-90deg) translateZ(60px);
+}
+
+
+/* 第三面 */
+
+#three {
+    -webkit-transform: rotateX(90deg) translateZ(60px);
+    transform: rotateX(90deg) translateZ(60px);
+}
+
+
+/* 第四面 */
+
+#four {
+    -webkit-transform: translateZ(-60px);
+    transform: translateZ(-60px);
+}
+
+
+/* 第五面 */
+
+#five {
+    -webkit-transform: rotateY(-90deg) translateZ(60px);
+    transform: rotateY(-90deg) translateZ(60px);
+}
+
+
+/* 第六面 */
+
+#six {
+    -webkit-transform: rotateY(90deg) translateZ(60px);
+    transform: rotateY(90deg) translateZ(60px);
+}
+
+
+/* 第一面小方形颜色 */
+
+#one div {
+    background-color: #FFF4BD;
+}
+
+
+/* 第二面小方形颜色 */
+
+#two div {
+    background-color: #D9FF9C;
+}
+
+
+/* 第三面小方形颜色 */
+
+#three div {
+    background-color: #D9FF9C;
+}
+
+
+/* 第四面小方形颜色 */
+
+#four div {
+    background-color: #89ECBE;
+}
+
+
+/* 第五面小方形颜色 */
+
+#five div {
+    background-color: #89C8EC;
+}
+
+
+/* 第六面小方形颜色 */
+
+#six div {
+    background-color: #BD97EF;
+}
