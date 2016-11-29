@@ -1,0 +1,29 @@
+a:hover {
+    color: #0aa770;
+}
+
+
+/*统一背景颜色*/
+
+.col-bac {
+    background-color: #0aa770;
+    color: #fff;
+}
+
+.col-bac:hover {
+    color: #fff;
+}
+
+
+/*统一边框颜色*/
+
+.col-bor {
+    border-top-color: #099e6a;
+}
+
+
+/*统一边框1*/
+
+.col-bor1 {
+    border: 1px solid #adb;
+}
