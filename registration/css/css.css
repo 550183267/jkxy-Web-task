@@ -1,0 +1,159 @@
+/*背景*/
+
+body {
+    background-image: url(../image/bj.gif);
+}
+
+
+/*整体*/
+
+#whole {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 710px;
+    height: 513px;
+    background-color: #FFF;
+}
+
+
+/*整体四个边角*/
+
+
+/*边角：右上角*/
+
+#s2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/*边角：左下角*/
+
+#di1 {
+    position: absolute;
+    top: 485px;
+}
+
+
+/*边角：右下角*/
+
+#di2 {
+    position: absolute;
+    top: 485px;
+    right: 0px;
+}
+
+
+/*页眉*/
+
+header {
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+
+/*右上角链接*/
+
+.link {
+    position: absolute;
+    top: 55px;
+    right: 38px;
+    font-size: 12px;
+}
+
+
+/*链接各个状态下的样式*/
+
+a:link {
+    color: #85A50A;
+}
+
+a:visited {
+    color: #B83911;
+}
+
+a:hover {
+    color: #528BD1;
+    font-weight: 700;
+}
+
+
+/*表格1*/
+
+.table1 {
+    margin-left: 40px;
+    margin-right: 40px;
+    border-color: #CCC;
+    font-size: 12px;
+}
+
+
+/*表头*/
+
+th {
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+
+/*"*"符号*/
+
+.x {
+    color: #F00;
+}
+
+
+/*p标签*/
+
+.p1 {
+    font-size: 13px;
+    background-color: #F1F1F1;
+    padding-top: 4px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+}
+
+
+/*表格单元格1*/
+
+.unit1 {
+    text-align: right;
+    width: 103.2px;
+    height: 38.4;
+    font-size: 12px;
+}
+
+
+/*文本1*/
+
+.text1 {
+    width: 160px;
+    height: 21.2;
+}
+
+
+/*表格单元格2*/
+
+.unit2 {
+    color: #7A7A7A;
+    margin-left: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+/*按钮*/
+
+.button {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#bottom {
+    text-align: center;
+    font-size: 11px;
+}

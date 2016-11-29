@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>注册第一步</title>
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+</head>
+
+<body>
+    <!--整体-->
+    <div id="whole">
+        <div id="s1"><img src="image/s1.gif" /></div>
+        <div id="s2"><img src="image/s2.gif" /></div>
+        <div id="di1"><img src="image/di1.gif" /></div>
+        <div id="di2"><img src="image/di2.gif" /></div>
+        <!--头部-->
+        <div>
+            <header>
+                <div>
+                    <a href="http://www.qdjj.net/"><img src="image/logo.gif" /></a>
+                </div>
+                <div class="link">
+                    <a href="http://www.qdjj.net/member/register.asp">注册</a>&nbsp;
+                    <a href="http://www.qdjj.net/login.asp">登陆</a>&nbsp;
+                    <a href="">收藏本站</a>
+            </header>
+            </div>
+            <!--内容-->
+            <div id="middle">
+                <form action="zc2.html">
+                    <table width="0" border="1" align="center" cellpadding="0" cellspacing="0px" class="table1">
+                        <thead>
+                            <tr>
+                                <th>新教员注册第一步选择用户名、密码和身份</th>
+                            </tr>
+                            <thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="padding-left:12px; padding-right:12px;">
+                                            <p style="margin-bottom:-8px">注意：带 <span class="x">*</span> 为必填项</p>
+                                            <div>
+                                                <p class="p1"><b>登录名和密码</b></p>
+                                            </div>
+                                            <table style="margin-top:-10px;">
+                                                <tr>
+                                                    <td class="unit1"><span class="x">*</span>会员名：</td>
+                                                    <td>
+                                                        <input type="text" name="name" class="text1" required maxlength="12" />
+                                                    </td>
+                                                    <td>
+                                                        <p class="unit2"><span style="color:#F96">3-12个字符</span>，会员名须以字母开头，只能由英文字母、数字、下划线组成，中间不能有空格。</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="unit1"><span class="x">*</span>密码：</td>
+                                                    <td>
+                                                        <input type="password" name="password" id="pass" class="text1" required maxlength="20" />
+                                                    </td>
+                                                    <td>
+                                                        <p class="unit2"><span style="color:#F96">6-20个字符</span>，区分英文字母大小写。</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="unit1"><span class="x">*</span>确认密码：</td>
+                                                    <td>
+                                                        <input type="password" name="password" id="repass" class="text1" required/>
+                                                    </td>
+                                                    <td>
+                                                        <p class="unit2">确认密码要与密码完全一致，注意英文字母大小写。</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <p class="p1"><b>选择教员身份</b></p>
+                                            <table>
+                                                <tr>
+                                                    <td class="unit1"><span class="x">*</span>教员身份：</td>
+                                                    <td>
+                                                        <input type="radio" name="sex" value="sex1" / required="required">在校大学生(研究生) ,不含留学生
+                                                        <br/>
+                                                        <input type="radio" name="sex" value="sex2" / required="required">专职教师(在职/进修/离职/退休)
+                                                        <br/>
+                                                        <input type="radio" name="sex" value="sex3" / required="required">新教员注册第一步-青岛家教网
+                                                        <br/>
+                                                        <input type="radio" name="sex" value="sex4" / required="required">社会职业人士(已经毕业离校的非教师职业人员)
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <p class="button">
+                                                <input type="submit" name="submit" value="提交 " />
+                                                <input type="reset" name="reset" value="重置 " />
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                    </table>
+                </form>
+            </div>
+            <!--底部-->
+            <div id="bottom">
+                <font>Copyright © 2003～2008 版权所有 青岛家教网</font>
+            </div>
+        </div>
+</body>
+
+</html>

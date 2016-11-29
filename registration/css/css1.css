@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+
+/*背景*/
+
+body {
+    background-image: url(../image/bj.gif);
+}
+
+
+/*整体*/
+
+#whole {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 710px;
+    height: 2540px;
+    background-color: #FFF;
+}
+
+
+/*整体四个边角*/
+
+
+/*边角：右上角*/
+
+#s2 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+/*边角：左下角*/
+
+#di1 {
+    position: absolute;
+    top: 2512px;
+}
+
+
+/*边角：右下角*/
+
+#di2 {
+    position: absolute;
+    top: 2512px;
+    right: 0px;
+}
+
+
+/*页眉*/
+
+header {
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+
+/*右上角链接*/
+
+.link {
+    position: absolute;
+    top: 55px;
+    right: 38px;
+    font-size: 12px;
+}
+
+
+/*链接各个状态下的样式*/
+
+a:link {
+    color: #85A50A;
+}
+
+a:visited {
+    color: #B83911;
+}
+
+a:hover {
+    color: #528BD1;
+    font-weight: 700;
+}
+
+
+/*表格1*/
+
+.table1 {
+    margin-left: 36.4px;
+    margin-right: 36.4px;
+    border-color: #EFEFEF;
+}
+
+
+/*表格单元格*/
+
+td {
+    padding: 3px 3px 3px 3px;
+}
+
+.title1 {
+    padding-top: 4px;
+    padding-left: 14px;
+    padding-bottom: 4px;
+    color: #039;
+    font-size: 13px;
+    background-color: #EEEEEE
+}
+
+
+/*"*"符号*/
+
+.x {
+    color: #F00;
+}
+
+
+/*文字*/
+
+.blue {
+    color: #0000cc;
+}
+
+
+/*表格单元格1*/
+
+.unit1 {
+    width: 130px;
+    text-align: right;
+}
+
+
+/*input1*/
+
+.input1 {
+    width: 224px;
+    height: 19.6px;
+}
+
+
+/*按钮*/
+
+.button {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+/*底部*/
+
+#bottom {
+    font-size: 11px;
+    text-align: center;
+}
