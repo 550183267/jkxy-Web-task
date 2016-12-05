@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>百度一下登陆</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="image/move/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="css/m.baidu.css">
+    <link rel="stylesheet" type="text/css" href="css/baidu-index.css">
+</head>
+
+<body>
+    <!-- 头部区 -->
+    <div class="head">
+        <!-- pc端头部导航 -->
+        <div class="head-nav">
+        </div>
+        <!-- 导航左边 -->
+        <div class="pc-nav-left">
+            <!-- 导航天气区 -->
+            <div class="pc-weat white">
+                <span class="img-icon"></span>
+                <span class="white">查看天气信息，</span>
+                <a class="white">设置城市</a>|
+            </div>
+            <!-- 导航换肤 -->
+            <div class="pc-skin">
+                <a href="#" class="white">宝箱</a>
+                <a class="skin1 white">换肤</a>
+                <a href="" class="white">消息</a>
+            </div>
+        </div>
+        <!-- 换肤框 -->
+        <div class="skin-box">
+            <div class="skin-line"></div>
+            <!-- 换肤框内容 -->
+            <div class="skin-box-con">
+                <!-- 换肤框导航 -->
+                <div class="skin-head">
+                    <ul>
+                        <li>热门</li>
+                        <li>游戏</li>
+                        <li>卡通</li>
+                        <li>女神降临</li>
+                        <li>明星</li>
+                        <li>风景</li>
+                        <li>简约</li>
+                        <li>小清新</li>
+                        <li>|</li>
+                        <li>自定义</li>
+                        <li>最近使用</li>
+                    </ul>
+                    <div class="skin-right">
+                        <i class="skin-img img-top"></i>
+                        <span class="stop">收起</span>
+                    </div>
+                </div>
+                <!-- 换肤预览框 -->
+                <div class="skin-pic">
+                    <div class="skin-pre">
+                        <div class="skin-pre-img">
+                            <div class="bg">
+                                <img class="pre-img">
+                            </div>
+                            <i class="skin-page"></i>
+                        </div>
+                        <div class="skin-text">背景皮肤预览效果</div>
+                    </div>
+                    <!-- 换肤图片区 -->
+                    <div class="skin-shr">
+                        <img id="skin-0" class="big" src="image/land/skin/0s.jpg">
+                        <img id="skin-1" class="last" src="image/land/skin/1s.jpg">
+                        <img id="skin-2" class="last" src="image/land/skin/2s.jpg">
+                        <img id="skin-3" class="last" src="image/land/skin/3s.jpg">
+                        <img id="skin-4" class="last" src="image/land/skin/4s.jpg">
+                        <img id="skin-5" class="last" src="image/land/skin/5s.jpg">
+                        <img id="skin-6" class="big" src="image/land/skin/6s.jpg">
+                        <img id="skin-7" class="last" src="image/land/skin/7s.jpg">
+                        <img id="skin-8" class="last" src="image/land/skin/8s.jpg">
+                        <img id="skin-9" class="last last-top" src="image/land/skin/9s.jpg">
+                        <img id="skin-10" class="last last-top" src="image/land/skin/10s.jpg">
+                        <img id="skin-11" class="last last-top" src="image/land/skin/11s.jpg">
+                    </div>
+                    <ul>
+                        <li class="skin-img img-j j"></li>
+                        <li class="skin-img img-g1 g"></li>
+                        <li class="skin-img img-g g"></li>
+                        <li class="skin-img img-g g"></li>
+                        <li class="skin-img img-j1 j"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <ul class="pc-nav-right">
+            <li><a href="https://zj.nuomi.com/" class="ul_a white"><b>糯米</b></a></li>
+            <li><a href="http://news.baidu.com/" class="ul_a white"><b>新闻</b></a></li>
+            <li><a href="https://www.hao123.com/" class="ul_a white"><b>hao123</b></a></li>
+            <li><a href="http://map.baidu.com/" class="ul_a white"><b>地图</b></a></li>
+            <li><a href="http://v.baidu.com/" class="ul_a white"><b>视频</b></a></li>
+            <li><a href="http://tieba.baidu.com/" class="ul_a white"><b>贴吧</b></a></li>
+            <li><a class="ul_b white">账户名</a>
+                <div class="drop pos1">
+                    <span></span>
+                    <a href="">我的vip</a>
+                    <a href="">个人中心</a>
+                    <a href="">账号设置</a>
+                    <a href="">意见反馈</a>
+                    <a href="" class="sign">退出</a>
+                </div>
+            </li>
+            <li><a href="" onclick="return false;" class="ul_c white">设置</a>
+                <!-- 下拉框 -->
+                <div class="drop pos2">
+                    <span></span>
+                    <a href="">搜索设置</a>
+                    <a href="">高级搜索</a>
+                    <a href="">关闭预测</a>
+                    <a href="">搜索历史</a>
+                </div>
+            </li>
+            <li><a href="" onclick="return false;" class="ul_d">更多产品</a>
+                <!-- 侧边栏 -->
+                <div class="sidebar">
+                    <div class="sidebar_one">更多产品</div>
+                    <div class="sidebar_two">
+                        <a href="http://music.baidu.com/"><i class="pc-img1"></i>音乐</a>
+                        <a href="http://image.baidu.com/"><i class="pc-img2"></i>图片</a>
+                        <a href="http://zhidao.baidu.com/"><i class="pc-img3"></i>知道</a>
+                        <a href="http://wenku.baidu.com/"><i class="pc-img4"></i>文库</a>
+                        <a href="http://top.baidu.com/"><i class="pc-img5"></i>风云榜</a>
+                        <a href="http://e.baidu.com/?refer=888"><i class="pc-img6"></i>百度推广</a>
+                        <div class="qbcp"><a href="https://www.baidu.com/more/">全部产品>></a></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="con">
+        <!-- 百度logo -->
+        <div class="logo">
+            <!-- pc百度logo -->
+            <a href="www.baidu.com" class="baidu-logo1"></a>
+        </div>
+        <!-- pc搜索区 -->
+        <div class="pc-range">
+            <!--照相机图片-->
+            <div class="pc-image2"></div>
+            <!-- 表单 -->
+            <form action="https://www.baidu.com/s" method="get" target="_blank" class="pc-form">
+                <!--搜索框-->
+                <input type="text" name="wd" id="wd" class="ss" autofocus>
+                <!--搜索按钮-->
+                <input type="submit" class="pc-botton" value="百度一下">
+            </form>
+        </div>
+    </div>
+    <!-- 浮动搜索 -->
+    <div class="sea-float">
+        <div class="pc-range-float">
+            <!-- pc百度logo -->
+            <a href="www.baidu.com" class="baidu-logo1-float"></a>
+            <!-- pc搜索区 -->
+            <!--照相机图片-->
+            <div class="pc-image2"></div>
+            <!-- 表单 -->
+            <form action="https://www.baidu.com/s" method="get" target="_blank" class="pc-form-float">
+                <!--搜索框-->
+                <input type="text" name="wd" id="wd" class="ss" autofocus>
+                <!--搜索按钮-->
+                <input type="submit" class="pc-botton" value="百度一下">
+            </form>
+        </div>
+    </div>
+    <!-- 推荐内容区 -->
+    <div class="rec-con">
+        <div class="rec-con-cen">
+            <div class="rec-con-cen1">
+                <!-- 推荐内容导航 -->
+                <div class="rec-con-nav">
+                    <ul>
+                        <li class="con-li1" style="width:124px"><i class="land-tb tb1"></i><span class="li-span1">我的关注</span></li>
+                        <li>推荐</li>
+                        <li>导航</li>
+                        <li>视频</li>
+                        <li>购物</li>
+                        <li>奥运</li>
+                    </ul>
+                    <div class="rec-tb"><i class="land-tb tb2"></i></div>
+                </div>
+                <!-- 标签内容 -->
+                <div class="rec">
+                    <!-- 我的关注 -->
+                    <div class="rec1 lable lab-block">
+                        <div class="rec-fol-tit">
+                            <div class="fol-div">
+                                <span class="fol-icon"><i class="fol-icon1"></i></span>
+                                <span class="fol-text">我的导航</span>
+                                <span class="fol-num"></span>
+                            </div>
+                            <!-- 我的关注编辑 -->
+                            <div class="rec-fol-edit">
+                                <div>添加</div>
+                                <div>编辑</div>
+                                <div class="fol-input">
+                                    <input type="checkbox">分类显示</input>
+                                </div>
+                                <div class="fol-input">
+                                    <input type="checkbox">返利模式</input>
+                                </div>
+                                <div style="color: #999">置顶</div>
+                            </div>
+                            <!-- 我的关注导航链接 -->
+                            <div class="rec-fol-link">
+                                <div class="fol-link-div1">
+                                    <a href="http://jiuye.jikexueyuan.com">
+                                        <img src="image/land/jkxy.ico" alt="极客学院" width="16px" height="16" class="jkxy-icon">
+                                        <span>极客学院</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 我的关注自定义 -->
+                        <div class="rec-fol-cus">
+                            <div class="cus1">
+                                <i class="cus-close cus-icon"></i><span>自定义</span>
+                            </div>
+                            <div class="cus-hide">
+                                <a href="#" hidefocus data-acting="close" class="cus-clo cus-icon"></a>
+                                <div class="cus-hide1">
+                                    <div class="cus-hide2">
+                                        <div class="cus-hide2-con">
+                                            <div class="cus-fol cus-c">
+                                                <h3>已关注</h3>
+                                                <div></div>
+                                            </div>
+                                            <div class="cus-no-fol cus-c">
+                                                <h3>未关注</h3>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                        <div class="cus-jt"><i></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 推荐 -->
+                    <div class="rec1 lable">
+                        <div class="rec-nav1">
+                            <!-- 猜你喜欢 -->
+                            <div class="rec-love rec-m">
+                                <h1>猜你喜欢</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                            </div>
+                            <!-- 资讯信息 -->
+                            <div class="rec-inf rec-m">
+                                <h1>资讯信息</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 导航 -->
+                    <div class="rec1 lable">
+                        <div class="rec-nav1">
+                            <!-- 猜你喜欢 -->
+                            <div class="rec-love rec-m">
+                                <h1>猜你喜欢</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                            </div>
+                            <!-- 资讯信息 -->
+                            <div class="rec-inf rec-m">
+                                <h1>资讯信息</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 视频 -->
+                    <div class="rec1 lable">
+                        <div class="rec-nav1">
+                            <!-- 猜你喜欢 -->
+                            <div class="rec-love rec-m">
+                                <h1>猜你喜欢</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                            </div>
+                            <!-- 资讯信息 -->
+                            <div class="rec-inf rec-m">
+                                <h1>资讯信息</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 购物 -->
+                    <div class="rec1 lable">
+                        <div class="rec-nav1">
+                            <!-- 猜你喜欢 -->
+                            <div class="rec-love rec-m">
+                                <h1>猜你喜欢</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                            </div>
+                            <!-- 资讯信息 -->
+                            <div class="rec-inf rec-m">
+                                <h1>资讯信息</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 奥运 -->
+                    <div class="rec1 lable">
+                        <div class="rec-nav1">
+                            <!-- 猜你喜欢 -->
+                            <div class="rec-love rec-m">
+                                <h1>猜你喜欢</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                            </div>
+                            <!-- 资讯信息 -->
+                            <div class="rec-inf rec-m">
+                                <h1>资讯信息</h1>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>苏宁易购</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>唯品会</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>当当网</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>百度糯米</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>京东商城</span></a>
+                                </div>
+                                <div>
+                                    <a href="#"><img src="image/land/1.png"><span>一号店</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 滚动查看更多 -->
+<!--                     <div class="roll">
+                        <p class="white rol-hide">滚动查看更多</p>
+                        <i class="land-tb rol-hide"></i>
+                    </div> -->
+                    <!-- 置顶 -->
+                    <div class="top">
+                        <div class="to-top">
+                            <div class="top1">
+                                <div>回到顶部</div>
+                            </div>
+                            <i class="top2"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- pc底部内容 -->
+    <div class="pc-foot_range1 white">
+        <!-- 内容第1行 -->
+        <p class="pc-foot_b1">
+            <a href="" class="white">设为首页</a> ©2016 Baidu
+            <a href="http://www.baidu.com/duty/" class="white">使用百度前必读</a>
+            <a href="http://jianyi.baidu.com/" class="white">意见反馈</a>京ICP证030173号 <i class="pc-image3"></i>
+        </p>
+        <!-- 内容第2行 -->
+        <p class="pc-foot_c1">
+            <i class="pc-image4"></i>
+            <span>京公网安备11000002000001号</span>
+        </p>
+    </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/baidu.jq.js"></script>
+</body>
+
+</html>
