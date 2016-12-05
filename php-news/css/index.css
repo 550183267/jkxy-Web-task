@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+body {
+    background: #f8f8f8;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*左边*/
+
+.left-col {
+    background: #85bcce;
+    position: fixed;
+    height: 100%;
+    z-index: 100;
+}
+
+
+/*头部区*/
+
+.head {
+    text-align: center;
+}
+
+
+/*头部导航区*/
+
+.head-nav {
+    padding: 50px 0;
+}
+
+
+/*头部导航区name*/
+
+.head-nav h1 {
+    font-size: 36px;
+}
+
+
+/*头部导航区导航*/
+
+nav {
+    margin-top: 50px;
+}
+
+
+/*头部导航区导航列表*/
+
+.head-nav ul li {
+    line-height: 50px;
+}
+
+
+/*头部导航区导航链接*/
+
+.head-nav ul li a {
+    display: block;
+    color: #0b191c;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.close {
+    float: none;
+    opacity: 0.5;
+}
+
+
+/*鼠标滑过*/
+
+.head-nav ul li a:hover {
+    color: #fff;
+    background: #4ea0d2;
+}
+
+
+
+/*右边内容*/
+
+.con {
+    padding: 10px 0px;
+    width: auto;
+}
+
+.con-art1 {
+    font-size: 14px;
+}
+
+
+/*中间内容显示区*/
+
+.news-wap {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.table-header {
+    background-color: #307ecc;
+    color: #FFF;
+    font-size: 14px;
+    line-height: 38px;
+    padding-left: 12px;
+    margin-bottom: 1px;
+}
+
+.table {
+    width: 90%;
+    max-width: 90%;
+    margin-bottom: 0px;
+}
+
+th,
+td {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 350px;
+    text-align: center;
+}
+
+.edit {
+    color: #047c9a;
+}
+
+.top {
+    position: fixed;
+    right: 10px;
+    z-index: 100;
+    display: block;
+    width: 38px;
+    height: 40px;
+    cursor: pointer;
+    background: #7f7f7f url(../img/move/top.png) no-repeat center;
+    background-size: 38px 40px;
+    bottom: 190px;
+}
+
+@media (max-width: 767px) {
+    /*左边*/
+    .left-col {
+        position: relative;
+        width: 100%;
+    }
+    /*头部导航区*/
+    .head-nav {
+        padding: 20px 0;
+    }
+    .head-nav p {
+        font-size: 14px;
+        padding: 5px 0 10px;
+    }
+    /*头部导航区导航*/
+    nav {
+        margin-top: 0px;
+    }
+    /*头部导航区导航列表*/
+    .head-nav ul li {
+        display: inline-block;
+        line-height: 28px;
+    }
+th,
+td {
+    max-width: 72px;
+}
+    .table-responsive {
+        border: 0px solid #ddd;
+    }
+
+}

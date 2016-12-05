@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>新闻后台登陆</title>
+    <link rel="shortcut icon" href="img/move/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/land.css">
+</head>
+
+<body>
+    <!-- 范围 -->
+    <div class="range">
+        <!-- 头部 -->
+        <div class="head">
+            新闻后台登陆
+        </div>
+        <!-- 中间区域 -->
+        <div>
+            <!-- 中间左边 -->
+            <div class="middle_left">
+                <img src="img/land/computer.png">
+            </div>
+            <!-- 中间右边登陆区 -->
+            <div class="middle_right">
+                <form role="form" action="php/land.php" method="post">
+                    <i class="iconfont img1">&#xe60c;</i>
+                    <i class="iconfont img2">&#xe60f;</i>
+                    <!-- 输入用户名 -->
+                    <input type="text" name="user" placeholder="user" class="user" required="required">
+                    <!-- 输入密码 -->
+                    <input type="password" name="password" placeholder="password" class="password" required="required">
+                    <!-- 登陆按钮 -->
+                    <input type="submit" name="land" value="登陆" class="button">
+                </form>
+                <div class="reg">
+                    <a id="register" data-toggle="modal" data-target="#myModal">用户注册</a>
+                    <!-- 注册账号 -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title" id="myModalLabel">注册账号 </h4>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="php/register.php" method="post" class="form-horizontal">
+                                        <div class="form-group">
+                                            <label for="user" class="col-sm-2 control-label">用户名</label>
+                                            <div class="col-sm-8">
+                                                <input type="text" name="user" class="form-control" id="user" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="password" class="col-sm-2 control-label">密码</label>
+                                            <div class="col-sm-8">
+                                                <input type="password" name="password" class="form-control" id="password" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="col-sm-offset-2 col-sm-10">
+                                                <button type="submit" class="btn btn-default">提交</button>
+                                                <button type="reset" class="btn btn-default">重置</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
