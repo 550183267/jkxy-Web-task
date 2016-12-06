@@ -1,0 +1,159 @@
+﻿@mixin reset {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    @include reset;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+
+h2 {
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+h3 {
+    background: #cb1212;
+    padding: 10px;
+    color: #fff;
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+p {
+    @include reset;
+}
+
+sub {
+    font-size: 11px;
+    margin-left: 2px;
+    color: #545454;
+}
+
+strong {
+    color: #ff0000;
+}
+
+i {
+    display: inline-block;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+    width: 5px;
+    height: 5px;
+    background: #ff0000;
+}
+
+em {
+    float: right;
+    display: inline-block;
+    border: 4px solid #ff0000;
+    border-right: 7px solid #fbeb97;
+    border-top: 4px solid #fbeb97;
+    width: 0px;
+    height: 0px;
+    margin-top: -4px;
+}
+
+
+//主体
+
+.subject {
+    position: relative;
+    margin-top: 40px;
+}
+
+
+//框架
+
+.frame {
+    margin: auto;
+    border: 10px double #ddd;
+    border-radius: 30px;
+    height: 600px;
+    width: 400px;
+    position: relative;
+}
+
+
+//标题
+
+.title {
+    text-align: center;
+    border-top-left-radius: 20px 20px;
+    border-top-right-radius: 20px 20px;
+    background-color: #6b4320;
+}
+
+
+//内容
+
+.content {
+    padding: 19px 8px;
+    position: relative;
+    background: #e6e6e6;
+    border-bottom-left-radius: 20px 20px;
+    border-bottom-right-radius: 20px 20px;
+}
+
+
+//路线
+
+.route {
+    height: 111px;
+    padding: 3px;
+    margin-bottom: 5px;
+    background: #fbeb97;
+    border-radius: 10px;
+}
+
+.route1 {
+    @extend .route;
+    background: #ffd1a9;
+    em {
+        border-right: 7px solid #ffd1a9;
+        border-top: 4px solid #ffd1a9;
+    }
+}
+
+.left {
+    float: left;
+    p {
+        font-size: 12px;
+    }
+}
+
+.right {
+    display: inline-block;
+    margin: 2px 0 2px 6px;
+    float: left;
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        color: #969696;
+    }
+}
+
+.right_foot {
+    border-top: 2px solid #ff0000;
+    margin: 3px 0;
+    padding: 0;
+    width: 300px;
+}
+
+ul {
+    li {
+        list-style-type: disc;
+        text-align: center;
+        vertical-align: top;
+        font-size: 12px;
+        width: 11px;
+        display: inline-block;
+        margin-top: -9px;
+    }
+}
