@@ -11,7 +11,7 @@
 
 5.3Dcube(3D魔方)[https://github.com/550183267/jkxy-web-task/tree/master/3Dcube]
 
-6.brief-strokes(简笔画)[https://github.com/550183267/jkxy-web-task/tree/master/brief-strokes]
+-6.brief-strokes(简笔画)[https://github.com/550183267/jkxy-web-task/tree/master/brief-strokes]
 
 7.flying-wing(双飞翼布局)[https://github.com/550183267/jkxy-web-task/tree/master/flying-wing]
 
@@ -21,7 +21,7 @@
 
 10.skin-peeler(hao123换肤)[https://github.com/550183267/jkxy-web-task/tree/master/skin-peeler]
 
-11.jkxy-curriculum(极客学院课程库页面)[https://github.com/550183267/jkxy-web-task/tree/master/jkxy-curriculum]
+-11.jkxy-curriculum(极客学院课程库页面)[https://github.com/550183267/jkxy-web-task/tree/master/jkxy-curriculum]
 
 12.baidu-waterfall-flow(百度图片瀑布流)[https://github.com/550183267/jkxy-web-task/tree/master/baidu-waterfall-flow]
 
